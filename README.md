@@ -1,63 +1,99 @@
 # Bulk File Renamer
 
-A simple desktop application built using **Python and Tkinter** that makes renaming multiple files faster and easier.
+## 1. Project Description
 
-The application allows users to select a folder, enter a custom filename prefix, and automatically rename all files using sequential numbering (001, 002, 003, etc.). It also provides a live preview of the new filenames before applying changes and preserves the original file extensions.
+Bulk File Renamer is a simple desktop application developed using **Python and Tkinter** that allows users to rename multiple files simultaneously using a custom prefix and sequential numbering.
 
-## Features
+The application provides a live preview of the updated filenames before applying changes and preserves the original file extensions. It simplifies repetitive file-renaming tasks through an easy-to-use graphical user interface.
 
-- **Folder Selection:** Select a folder containing the files you want to rename.
-- **Custom Prefix:** Add a custom prefix to all filenames.
-- **Sequential Numbering:** Automatically assign numbers in sequence (001, 002, 003...).
-- **Live Preview:** View original and updated filenames side by side before renaming.
-- **Extension Preservation:** Retain original file extensions such as .pdf, .jpg, .docx, etc.
-- **Confirmation Before Renaming:** Confirm the operation before making changes.
-- **Directory Filtering:** Automatically exclude subfolders and process files only.
+## 2. Features
 
-## Real-World Application: College Professors and Faculty
+- **Folder Selection:** Browse and select a folder containing the files to be renamed.
+- **Custom Prefix:** Add a user-defined prefix to all selected filenames.
+- **Sequential Numbering:** Automatically assign numbers in sequence (001, 002, 003, etc.).
+- **Live Preview:** Display original and updated filenames side by side before renaming.
+- **Extension Preservation:** Retain original file extensions such as `.pdf`, `.jpg`, `.docx`, etc.
+- **Confirmation Before Renaming:** Display a confirmation dialog before applying changes.
+- **Directory Filtering:** Exclude subdirectories and process files only.
 
-College professors and faculty members frequently handle large numbers of academic files, including assignments, examination papers, student submissions, lecture materials, and project reports.
+## 3. Application Screenshots
 
-This application can help professors organize these files more efficiently by renaming them in a consistent sequence.
+### Main Application Interface
+
+![Main Application Interface](Opening.jpeg)
+
+### Folder Selection
+
+![Folder Selection](Folder%20Selected.jpeg)
+
+### Files Renamed Successfully
+
+![Files Renamed](Files%20Renamed%20-%20Prefix.jpeg)
+
+## 4. Real-World Application – College Professors
+
+College professors and faculty members regularly handle large numbers of digital files, including student assignments, examination papers, project reports, lecture materials, and academic documents.
+
+Managing these files with inconsistent filenames can become time-consuming.
+
+Bulk File Renamer helps professors organize these files efficiently by assigning a common prefix and sequential numbers.
 
 **Example:**
-
-A professor downloads multiple student assignment submissions with inconsistent filenames.
 
 Original filenames:
 - assignment_final.pdf
 - submission_new.pdf
 - document123.pdf
 
-After using Bulk File Renamer with the prefix `DSA_Assignment_`:
+After renaming with the prefix `DSA_Assignment_`:
 
 - DSA_Assignment_001.pdf
 - DSA_Assignment_002.pdf
 - DSA_Assignment_003.pdf
 
-This makes files easier to identify, organize, and manage.
+This provides a consistent naming structure, making academic files easier to identify, organize, and manage.
 
-Other potential users include students, researchers, administrative staff, and anyone who regularly manages large collections of digital files.
+The application can also be useful for students, researchers, and administrative staff.
 
-## Technologies Used
+## 5. Technologies Used
 
-- Python
-- Tkinter – Graphical User Interface
-- OS Module – File and directory operations
+- **Python:** Main programming language.
+- **Tkinter:** Used to develop the graphical user interface.
+- **OS Module:** Used for file and directory operations.
 
-## How to Run
+## 6. How to Run
 
-1. Clone this repository.
-2. Make sure Python is installed.
-3. Navigate to the project directory.
-4. Run the following command:
+### Prerequisites
+
+- Python 3.x installed on your system.
+- Tkinter (included with most standard desktop Python installations).
+
+### Installation Steps
+
+**Step 1: Clone the repository**
+
+```bash
+git clone https://github.com/dj873279-collab/Bulk-File-Renamer-.git
+```
+
+**Step 2: Navigate to the project directory**
+
+```bash
+cd Bulk-File-Renamer-
+```
+
+**Step 3: Run the application**
 
 ```bash
 python bulk_renamer.py
 ```
 
-No additional Python packages are required because the application uses built-in Python libraries.
+The application window will open, allowing you to select a folder and begin renaming files.
 
-## Project Objective
+## 7. Project Objective
+
+The objective of this project is to develop a simple and efficient desktop application that automates repetitive file-renaming tasks.
+
+It demonstrates the practical application of Python programming, graphical user interface development using Tkinter, and file-handling operations to solve a common file-management problem.
 
 The objective of this project is to develop a simple, user-friendly desktop application that automates repetitive file-renaming tasks while demonstrating the practical use of Python programming, GUI development, and file-handling operations.
